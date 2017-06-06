@@ -63,13 +63,13 @@ class NHCardImage extends Component {
               <Left>
                 <Button iconLeft transparent>
                   <Icon active name="thumbs-up" />
-                  <Text>12 Likes</Text>
+                  <Text>1233 Likes</Text>
                 </Button>
               </Left>
               <Body>
                 <Button iconLeft transparent>
                   <Icon active name="chatbubbles" />
-                  <Text>4 Comments</Text>
+                  <Text>43 Comments</Text>
                 </Button>
               </Body>
               <Right>

@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { actions } from 'react-native-navigation-redux-helpers';
-import { Container, Header, Title, Content, Button, Footer, FooterTab, Text, Body, Left, Right, Icon } from 'native-base';
+import { Container, Header, Title, Content, Button, Footer, FooterTab, Text, Body, Left, Right, Icon, Badge } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 
 import styles from './styles';
@@ -87,7 +87,8 @@ class BadgeFooter extends Component {
         <Content padder />
         <Footer>
           <FooterTab>
-            <Button active={this.state.tab1} onPress={() => this.toggleTab1()} badgeValue={2} badgeValueStyle={{ color: '#FFF' }}>
+            <Button badge active={this.state.tab1} onPress={() => this.toggleTab1()} badgeValue={2} badgeValueStyle={{ color: '#FFF' }}>
+              <Badge><Text>2</Text></Badge>
               <Icon active={this.state.tab1} name="apps" />
               <Text>Apps</Text>
             </Button>
@@ -99,7 +100,8 @@ class BadgeFooter extends Component {
               <Icon active={this.state.tab3} name="compass" />
               <Text>Compass</Text>
             </Button>
-            <Button active={this.state.tab4} onPress={() => this.toggleTab4()} >
+            <Button badge active={this.state.tab4} onPress={() => this.toggleTab4()} >
+              <Badge warning><Text>51</Text></Badge>
               <Icon active={this.state.tab4} name="contact" />
               <Text>Contact</Text>
             </Button>
