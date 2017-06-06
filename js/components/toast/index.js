@@ -37,11 +37,11 @@ class ToastNB extends Component {
 
 
         <Content padder>
-          <Button onPress={()=> Toast.show({
-              text: 'Wrong password!',
-              position: 'bottom',
-              buttonText: 'Okay'
-            })}>
+          <Button onPress={() => Toast.show({
+            text: 'Wrong password!',
+            position: 'bottom',
+            buttonText: 'Okay'
+          })}>
             <Text>Toast</Text>
           </Button>
 

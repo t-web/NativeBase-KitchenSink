@@ -92,7 +92,7 @@ class NHListAvatar extends Component {
             dataArray={datas} renderRow={data =>
               <ListItem avatar>
                 <Left>
-                  <Thumbnail source={data.img} />
+                  <Thumbnail small source={data.img} />
                 </Left>
                 <Body>
                   <Text>{data.text}</Text>
@@ -102,7 +102,7 @@ class NHListAvatar extends Component {
                   <Text note>{data.time}</Text>
                 </Right>
               </ListItem>
-        }
+            }
           />
         </Content>
       </Container>
