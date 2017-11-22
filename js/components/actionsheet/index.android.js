@@ -26,11 +26,11 @@ import styles from "./styles";
 const datas = [
   {
     route: "RegularActionSheet",
-    text: "Regular"
+    text: "一般"
   },
   {
     route: "IconActionSheet",
-    text: "Icon ActionSheet"
+    text: "带图标"
   }
 ];
 
@@ -48,7 +48,7 @@ class NHPicker extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>ActionSheet</Title>
+            <Title>操作</Title>
           </Body>
           <Right />
         </Header>

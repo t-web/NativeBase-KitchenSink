@@ -54,7 +54,7 @@ class NHLayout extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Layout</Title>
+            <Title>布局</Title>
           </Body>
           <Right />
 

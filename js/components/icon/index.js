@@ -32,7 +32,7 @@ class NHIcon extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Icons</Title>
+            <Title>图标</Title>
           </Body>
           <Right />
 

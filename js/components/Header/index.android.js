@@ -20,31 +20,31 @@ import styles from "./styles";
 const datas = [
   {
     route: "Header1",
-    text: "Only Title"
+    text: "只有标题"
   },
   {
     route: "Header2",
-    text: "Icon Buttons"
+    text: "图标按钮"
   },
   {
     route: "Header3",
-    text: "Text Buttons"
+    text: "文字按钮"
   },
   {
     route: "Header4",
-    text: "Icon Button and Text Button"
+    text: "图标文字混用"
   },
   {
     route: "Header6",
-    text: "Multiple Icon Buttons"
+    text: "多个按钮"
   },
   {
     route: "Header7",
-    text: "Title and Subtitle"
+    text: "主副标题"
   },
   {
     route: "Header8",
-    text: "Custom Background Color"
+    text: "定制背景颜色"
   }
 ];
 

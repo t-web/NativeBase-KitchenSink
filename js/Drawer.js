@@ -35,6 +35,10 @@ import SideBar from "./components/sidebar";
 import Segment from "./components/segment";
 import Toast from "./components/toast";
 import Actionsheet from "./components/actionsheet";
+//自定义输入
+import Test from "./components/test";
+import Dev from "./components/dev";
+import PageTest from "./pagecomponents/test";
 
 const DrawerExample = DrawerNavigator(
   {
@@ -67,7 +71,12 @@ const DrawerExample = DrawerNavigator(
     NHTypography: { screen: NHTypography },
     Segment: { screen: Segment },
     Toast: { screen: Toast },
-    Actionsheet: { screen: Actionsheet }
+    Actionsheet: { screen: Actionsheet },
+    Test: { screen: Test },
+    Dev: { screen: Dev },
+    PageTest: { screen: PageTest },
+
+
   },
   {
     initialRouteName: "Home",

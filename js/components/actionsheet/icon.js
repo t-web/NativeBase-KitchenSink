@@ -37,7 +37,7 @@ export default class ActionSheetNB extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Icon ActionSheet</Title>
+            <Title>带图标</Title>
           </Body>
           <Right />
         </Header>
@@ -56,7 +56,7 @@ export default class ActionSheetNB extends Component {
                 }
               )}
           >
-            <Text>Actionsheet</Text>
+            <Text>带图标</Text>
           </Button>
         </Content>
       </Container>

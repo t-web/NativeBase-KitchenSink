@@ -39,19 +39,19 @@ class NHThumbnail extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Thumbnail</Title>
+            <Title>缩略图</Title>
           </Body>
           <Right />
         </Header>
 
         <Content padder>
           <View style={{ flex: 1, alignItems: "center" }}>
-            <Text style={styles.mb10}>Square Thumbnail</Text>
+            <Text style={styles.mb10}>方形缩略图</Text>
             <Thumbnail square small source={logo} style={styles.mb10} />
             <Thumbnail square source={logo} style={styles.mb10} />
             <Thumbnail square large source={logo} style={styles.mb35} />
 
-            <Text style={styles.mb10}>Circular Thumbnail</Text>
+            <Text style={styles.mb10}>圆角缩略图</Text>
             <Thumbnail small source={cover} style={styles.mb10} />
             <Thumbnail source={cover} style={styles.mb10} />
             <Thumbnail large source={cover} />

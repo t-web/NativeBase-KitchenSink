@@ -26,9 +26,9 @@ class Home extends Component {
 							backgroundColor: "transparent",
 						}}
 					>
-						<H3 style={styles.text}>App to showcase</H3>
+						<H3 style={styles.text}>测试应用</H3>
 						<View style={{ marginTop: 8 }} />
-						<H3 style={styles.text}>NativeBase components</H3>
+						<H3 style={styles.text}>NativeBase 组件</H3>
 						<View style={{ marginTop: 8 }} />
 					</View>
 					<View style={{ marginBottom: 80 }}>
@@ -36,7 +36,7 @@ class Home extends Component {
 							style={{ backgroundColor: "#6FAF98", alignSelf: "center" }}
 							onPress={() => this.props.navigation.navigate("DrawerOpen")}
 						>
-							<Text>Lets Go!</Text>
+							<Text>尝试一下!</Text>
 						</Button>
 					</View>
 				</Image>

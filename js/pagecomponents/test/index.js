@@ -18,7 +18,7 @@ import {
 
 import styles from "./styles";
 
-class NHTypography extends Component {
+class PageTest extends Component {
   // eslint-disable-line
 
   render() {
@@ -34,21 +34,20 @@ class NHTypography extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>排版</Title>
+            <Title>测试页面</Title>
           </Body>
           <Right />
 
         </Header>
 
         <Content padder>
-          <H1 style={styles.mb10}>Header One</H1>
-          <H2 style={styles.mb10}>Header Two</H2>
-          <H3 style={styles.mb10}>Header Three</H3>
-          <Text>Default</Text>
+          <H1 style={styles.mb10}>这是有个测试页</H1>
+
+          <Text>默认</Text>
         </Content>
       </Container>
     );
   }
 }
 
-export default NHTypography;
+export default PageTest;

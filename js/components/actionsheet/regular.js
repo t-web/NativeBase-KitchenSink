@@ -31,7 +31,7 @@ export default class ActionSheetNB extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>ActionSheet</Title>
+            <Title>正常</Title>
           </Body>
           <Right />
         </Header>
@@ -50,7 +50,7 @@ export default class ActionSheetNB extends Component {
                 }
               )}
           >
-            <Text>Actionsheet</Text>
+            <Text>正常</Text>
           </Button>
         </Content>
       </Container>

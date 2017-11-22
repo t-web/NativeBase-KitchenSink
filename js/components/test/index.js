@@ -18,7 +18,7 @@ import {
 
 import styles from "./styles";
 
-class NHTypography extends Component {
+class Test extends Component {
   // eslint-disable-line
 
   render() {
@@ -34,7 +34,7 @@ class NHTypography extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>排版</Title>
+            <Title>测试页面</Title>
           </Body>
           <Right />
 
@@ -51,4 +51,4 @@ class NHTypography extends Component {
   }
 }
 
-export default NHTypography;
+export default Test;

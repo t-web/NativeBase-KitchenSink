@@ -92,11 +92,16 @@ import Segment from "./components/segment";
 import BasicSegment from "./components/segment/SegmentHeader";
 import AdvSegment from "./components/segment/segmentTab";
 import Toast from "./components/toast";
+//自定义输入
+import Test from "./components/test";
+import Dev from "./components/dev";
+import PageTest from "./pagecomponents/test";
+
 import statusBarColor from "./themes/variables";
 
 class AppNavigator extends Component {
   render() {
-    return ;
+    return;
   }
 }
 

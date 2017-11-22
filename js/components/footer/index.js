@@ -20,7 +20,7 @@ import styles from "./styles";
 const datas = [
   {
     route: "BasicFooter",
-    text: "Basic Footer"
+    text: "基本 Footer"
   },
   {
     route: "IconFooter",
