@@ -34,10 +34,16 @@ const datas = [
 		note: "基本内容测试demo. ."
 	},
 	{
-		img: supriya,
-		route: 'NHListThumbnail',
-		text: "Supriya",
-		note: "One needs courage to be happy and smiling all time . . "
+		img: test,
+		route: 'PageLogin',
+		text: "登录页面",
+		note: "基本内容测试demo. ."
+	},
+	{
+		img: test,
+		route: 'PageYoutube',
+		text: "Page Youtube",
+		note: "基本内容测试demo. ."
 	},
 	// {
 	// 	img: himanshu,
@@ -96,9 +102,9 @@ class Dev extends Component {
 									<Text numberOfLines={1} note>{data.note}</Text>
 								</Body>
 								<Right>
-									<Button transparent>
+									{/* <Button transparent>
 										<Text>View</Text>
-									</Button>
+									</Button> */}
 								</Right>
 							</ListItem>}
 					/>

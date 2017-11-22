@@ -94,10 +94,15 @@ import AdvSegment from "./components/segment/segmentTab";
 import Toast from "./components/toast";
 //自定义输入
 import Test from "./components/test";
-import Dev from "./components/dev";
+import Dev from "./pagecomponents/dev";
 import PageTest from "./pagecomponents/test";
-
+import PageLogin from "./pagecomponents/login";
 import statusBarColor from "./themes/variables";
+
+
+import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
+import PageYoutube from "./pagecomponents/youtube";
+
 
 class AppNavigator extends Component {
   render() {

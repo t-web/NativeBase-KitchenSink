@@ -37,8 +37,12 @@ import Toast from "./components/toast";
 import Actionsheet from "./components/actionsheet";
 //自定义输入
 import Test from "./components/test";
-import Dev from "./components/dev";
+import Dev from "./pagecomponents/dev";
 import PageTest from "./pagecomponents/test";
+import PageLogin from "./pagecomponents/login";
+import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
+
+import PageYoutube from "./pagecomponents/youtube";
 
 const DrawerExample = DrawerNavigator(
   {
@@ -75,7 +79,9 @@ const DrawerExample = DrawerNavigator(
     Test: { screen: Test },
     Dev: { screen: Dev },
     PageTest: { screen: PageTest },
-
+    PageLogin: { screen: PageLogin },
+    PageLogin_FloatingLabel: { screen: PageLogin_FloatingLabel },
+    PageYoutube: { screen: PageYoutube },
 
   },
   {
