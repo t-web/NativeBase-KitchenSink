@@ -24,6 +24,7 @@ const himanshu = require("../../../img/contacts/himanshu.png");
 const shweta = require("../../../img/contacts/shweta.png");
 const shruti = require("../../../img/contacts/shruti.png");
 const test = require("../../../img/screenshots/test.jpg");
+const webviewvideo = require("../../../img/screenshots/webviewvideo.jpg");
 
 // const shivraj = require("../../../img/screenshots/shivraj.jpg");
 const datas = [
@@ -40,10 +41,16 @@ const datas = [
 		note: "基本内容测试demo. ."
 	},
 	{
-		img: test,
+		img: webviewvideo,
 		route: 'PageYoutube',
 		text: "Page Youtube",
 		note: "基本内容测试demo. ."
+	},
+	{
+		img: test,
+		route: 'PageAjax',
+		text: "ajax请求",
+		note: "fetch请求测试 基本内容测试demo. ."
 	},
 	// {
 	// 	img: himanshu,

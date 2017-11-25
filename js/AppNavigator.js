@@ -102,6 +102,7 @@ import statusBarColor from "./themes/variables";
 
 import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
 import PageYoutube from "./pagecomponents/youtube";
+import PageAjax from "./pagecomponents/ajax";
 
 
 class AppNavigator extends Component {

@@ -43,6 +43,7 @@ import PageLogin from "./pagecomponents/login";
 import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
 
 import PageYoutube from "./pagecomponents/youtube";
+import PageAjax from "./pagecomponents/ajax";
 
 const DrawerExample = DrawerNavigator(
   {
@@ -82,6 +83,7 @@ const DrawerExample = DrawerNavigator(
     PageLogin: { screen: PageLogin },
     PageLogin_FloatingLabel: { screen: PageLogin_FloatingLabel },
     PageYoutube: { screen: PageYoutube },
+    PageAjax: { screen: PageAjax },
 
   },
   {

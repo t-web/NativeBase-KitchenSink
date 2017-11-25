@@ -79,3 +79,6 @@ $ react-native run-android
 
 
 For apps with more advanced designs using NativeBase, please visit **[NativeBase Market](https://market.nativebase.io)**.
+
+
+react-native start
