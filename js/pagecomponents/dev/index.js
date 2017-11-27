@@ -58,6 +58,18 @@ const datas = [
 		text: "ScrollView",
 		note: "下拉刷新. ."
 	},
+	{
+		img: test,
+		route: 'maps',
+		text: "google maps",
+		note: "https://github.com/airbnb/react-native-maps."
+	},
+	{
+		img: test,
+		route: 'parallax',
+		text: "parallax",
+		note: "可以自定义头部，带弹性当打效果的竖向ScrollView https://github.com/lelandrichardson/react-native-parallax-view"
+	},
 	// {
 	// 	img: himanshu,
 	// 	route: 'NHListThumbnail',

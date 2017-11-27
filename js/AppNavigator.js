@@ -106,6 +106,8 @@ import PageAjax from "./pagecomponents/ajax";
 import ScrollView from "./pagecomponents/ScrollView";
 import swRefresh from "./pagecomponents/ScrollView/react-native-swRefresh";
 import PageScrollView from "./pagecomponents/ScrollView/ScrollView";
+import maps from "./pagecomponents/maps";
+import parallax from "./pagecomponents/react-native-parallax-view";
 
 class AppNavigator extends Component {
   render() {
