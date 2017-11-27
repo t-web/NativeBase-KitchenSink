@@ -103,7 +103,9 @@ import statusBarColor from "./themes/variables";
 import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
 import PageYoutube from "./pagecomponents/youtube";
 import PageAjax from "./pagecomponents/ajax";
-
+import ScrollView from "./pagecomponents/ScrollView";
+import swRefresh from "./pagecomponents/ScrollView/react-native-swRefresh";
+import PageScrollView from "./pagecomponents/ScrollView/ScrollView";
 
 class AppNavigator extends Component {
   render() {

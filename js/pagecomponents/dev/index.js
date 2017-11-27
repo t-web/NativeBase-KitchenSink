@@ -52,6 +52,12 @@ const datas = [
 		text: "ajax请求",
 		note: "fetch请求测试 基本内容测试demo. ."
 	},
+	{
+		img: test,
+		route: 'ScrollView',
+		text: "ScrollView",
+		note: "下拉刷新. ."
+	},
 	// {
 	// 	img: himanshu,
 	// 	route: 'NHListThumbnail',

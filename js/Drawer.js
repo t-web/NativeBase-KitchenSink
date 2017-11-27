@@ -44,6 +44,9 @@ import PageLogin_FloatingLabel from "./pagecomponents/login/floatingLabel";
 
 import PageYoutube from "./pagecomponents/youtube";
 import PageAjax from "./pagecomponents/ajax";
+import ScrollView from "./pagecomponents/ScrollView";
+import swRefresh from "./pagecomponents/ScrollView/react-native-swRefresh";
+import PageScrollView from "./pagecomponents/ScrollView/ScrollView";
 
 const DrawerExample = DrawerNavigator(
   {
@@ -84,6 +87,9 @@ const DrawerExample = DrawerNavigator(
     PageLogin_FloatingLabel: { screen: PageLogin_FloatingLabel },
     PageYoutube: { screen: PageYoutube },
     PageAjax: { screen: PageAjax },
+    ScrollView: { screen: ScrollView },
+    swRefresh: { screen: swRefresh },
+    PageScrollView: { screen: PageScrollView },
 
   },
   {
