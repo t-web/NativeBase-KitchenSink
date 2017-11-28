@@ -47,7 +47,7 @@ import PageAjax from "./pagecomponents/ajax";
 import ScrollView from "./pagecomponents/ScrollView";
 import swRefresh from "./pagecomponents/ScrollView/react-native-swRefresh";
 import PageScrollView from "./pagecomponents/ScrollView/ScrollView";
-import maps from "./pagecomponents/maps";
+// import maps from "./pagecomponents/maps";
 import parallax from "./pagecomponents/react-native-parallax-view";
 
 const DrawerExample = DrawerNavigator(
@@ -92,7 +92,7 @@ const DrawerExample = DrawerNavigator(
     ScrollView: { screen: ScrollView },
     swRefresh: { screen: swRefresh },
     PageScrollView: { screen: PageScrollView },
-    maps: { screen: maps },
+    // maps: { screen: maps },
     parallax: { screen: parallax },
 
   },
